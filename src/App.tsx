@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <h1>Letmeask</h1>
-      <Button text="Botão 1"/>
-      <Button text="Botão 2"/>
+      {/* <Button text="Botão 1"/> */}
+      <Button />
       <Button />
       <Button />
 

@@ -1,10 +1,17 @@
+import { useState } from "react";
 
-type ButtonProps = {
-  text?: string
-}
+export function Button() {
+  const [counter, setCounter] = useState(0)
 
-export function Button(props: ButtonProps) {
+  function increment () {
+    // counter ++
+    setCounter(counter+1)
+    console.log(counter)    
+  }
+
   return (
-    <button>{props.text}</button>
+    <button onClick={increment}>
+      {counter}
+    </button>
   )
 }
