@@ -1,19 +1,10 @@
-// import React from 'react';
-
-import { Button } from './components/Button';
+import {Home} from './pages/Home';
 
 
-function App() {
+ function App() {
   return (
-    <>
-      <h1>Letmeask</h1>
-      {/* <Button text="Botão 1"/> */}
-      <Button />
-      <Button />
-      <Button />
-
-    </>
+       
+    <Home />
   );
 }
-
-export default App;
+export default App
